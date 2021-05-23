@@ -1,0 +1,80 @@
+.container__description {
+  padding: 0 80px;
+}
+
+.container__description h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+
+.container__subtitle {
+  color: hsl(277, 64%, 61%);
+}
+
+.container__description p {
+  font-size: 1.2rem;
+  color: #ffdbdb;
+}
+
+.list-important {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.list-important b {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.list-important p{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 95vh
+  }
+  .container__description{
+    /* width: 50%; */
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+  }
+  .container__description h1{
+    text-align: left;
+    font-size: 2rem;
+  }
+  .container__description p{
+    text-align: left;
+  }
+  .list-important{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -30px;
+  }
+  .list-important li{
+    padding: 0px 20px;
+  }
+  .attribution{
+    display: flex;
+  }
+}

@@ -1,0 +1,30 @@
+.container-desktop__img{
+  display: none;
+}
+
+.container-mobile__img {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.container-mobile__img img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container-mobile__img img {
+    display: none;
+  }
+  .container-desktop__img{
+    display: block;
+    width: 100%;
+  }
+  .container-desktop__img img {
+   /*  width: 50%; */
+    display: block;
+    height: 100%;
+    margin-top: 80px;
+  }
+}
