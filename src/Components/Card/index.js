@@ -14,7 +14,7 @@ const Card = () => {
       <ul className="list-important">
         <li>
           <b>10k+ </b>
-          <p>Companies</p>
+          <p>companies</p>
         </li>
         <li>
           <b>314</b>
