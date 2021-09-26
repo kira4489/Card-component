@@ -1,5 +1,5 @@
 .container__description {
-  padding: 0 80px;
+  padding: 0 30px;
 }
 
 .container__description h1 {
@@ -12,15 +12,17 @@
 }
 
 .container__description p {
+  text-align: center;
   font-size: 1.2rem;
   color: #ffdbdb;
 }
 
 .list-important {
+  text-align: center;
   text-decoration: none;
   list-style-type: none;
-  margin-top: 50px;
-  padding: 10px;
+  margin: 50px 0;
+  padding: 0 10px;
 }
 
 .list-important b {
@@ -53,7 +55,8 @@
     min-width: 95vh
   }
   .container__description{
-    /* width: 50%; */
+    width: 80%;
+    padding: 0 50px;
     margin-top: 100px;
     flex-direction: column;
     display: flex;

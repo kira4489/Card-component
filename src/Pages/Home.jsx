@@ -1,13 +1,13 @@
-import Card from "../Components/Card"
-import Img from "../Components/Img"
+import Card from "../Components/Card";
+import Img from "../Components/Img";
 
 const Home = () => {
-    return (
+  return (
     <div className="container">
-    <Img/>
-    <Card/>
+      <Img />
+      <Card />
     </div>
-    )
-}
+  );
+};
 
-export default Home
+export default Home;
